@@ -73,7 +73,7 @@ public class ChefSetC {
 
     private static boolean isSumOfSubSetZero(int set[]) {
         int n = set.length;
-        for (int i = 0; i < (1 << n); i++) {
+        for (int i = 1; i < (1 << n); i++) {
             int sum = 0;
             for (int j = 0; j < n; j++)
                 if ((i & (1 << j)) > 0)
