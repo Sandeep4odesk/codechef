@@ -69,7 +69,7 @@ public class SolveEquations {
     private static int getResult(StringBuffer sb) {
         Integer result = Integer.parseInt(sb.charAt(0) + "");
         for (int i = 2; i < sb.length(); i++) {
-            if (i % 2 != 0) {
+            if (i % 2 == 0) {
                 if (sb.charAt(i - 1) == '+') {
                     result += Integer.parseInt(sb.charAt(i) + "");
                 } else {
