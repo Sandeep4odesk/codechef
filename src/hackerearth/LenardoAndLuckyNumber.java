@@ -1,3 +1,4 @@
+package hackerearth;
 import java.util.Scanner;
 
 public class LenardoAndLuckyNumber {
